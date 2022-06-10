@@ -50,10 +50,13 @@ var j= document.getElementById("Final");
 function baotaoVerde(q,v,t){
     if(q==1 && v==1 && t==1){
             console.log("peidei")
-            j.classList.toggle("margem");
+            j.classList.toggle("OK");
+           
     }
 }    
 
 function Obrigado(){
+    //HTML REQUESt
  alert("!!Obrigado por comprar com agente!!");
+ 
 }    
